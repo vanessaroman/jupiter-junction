@@ -69,16 +69,18 @@ export default function JoinOurTeam() {
         maxW={'7xl'}
         columns={{ base: 1, md: 2 }}
         spacing={{ base: 10, lg: 32 }}
-        py={{ base: 10, sm: 20, lg: 32 }}>
+        py={{ base: 10, sm: 20, lg: 32 }}
+        bg={'black'}>
         <Stack spacing={{ base: 10, md: 20 }}>
           <Heading
             lineHeight={1.1}
-            fontSize={{ base: '3xl', sm: '4xl', md: '5xl', lg: '6xl' }}>
-            Senior web designers{' '}
+            fontSize={{ base: '3xl', sm: '4xl', md: '5xl', lg: '6xl' }}
+            color={'white'}>
+            Artists{' '}
             <Text as={'span'} bgGradient="linear(to-r, red.400,pink.400)" bgClip="text">
               &
             </Text>{' '}
-            Full-Stack Developers
+            Performers
           </Heading>
           <Stack direction={'row'} spacing={4} align={'center'}>
             <AvatarGroup>
@@ -186,7 +188,7 @@ export default function JoinOurTeam() {
                   color: 'gray.500',
                 }}
               />
-              <Button fontFamily={'heading'} bg={'gray.200'} color={'gray.800'}>
+              <Button fontFamily={'heading'} bg={'black'} color={'white'} _hover={{ bg: '#fd90ad' }}>
                 Upload CV
               </Button>
             </Stack>
@@ -194,10 +196,10 @@ export default function JoinOurTeam() {
               fontFamily={'heading'}
               mt={8}
               w={'full'}
-              bgGradient="linear(to-r, red.400,pink.400)"
+              bgGradient="linear(to-r, pink.400,#fd90ad)"
               color={'white'}
               _hover={{
-                bgGradient: 'linear(to-r, red.400,pink.400)',
+                bgGradient: 'linear(to-r, #fd90ad,black)',
                 boxShadow: 'xl',
               }}>
               Submit

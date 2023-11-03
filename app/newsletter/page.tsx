@@ -19,7 +19,7 @@ export default function CardWithIllustration() {
       align={'center'}
       justify={'center'}
       py={12}
-      bg={useColorModeValue('gray.50', 'gray.800')}>
+      bg={useColorModeValue('black', 'gray.800')}>
       <Stack
         boxShadow={'2xl'}
         bg={useColorModeValue('white', 'gray.700')}
@@ -42,7 +42,7 @@ export default function CardWithIllustration() {
         <Stack spacing={4} direction={{ base: 'column', md: 'row' }} w={'full'}>
           <Input
             type={'text'}
-            placeholder={'john@doe.net'}
+            placeholder={'baddie@doe.net'}
             color={useColorModeValue('gray.800', 'gray.200')}
             bg={useColorModeValue('gray.100', 'gray.600')}
             rounded={'full'}
@@ -53,12 +53,12 @@ export default function CardWithIllustration() {
             }}
           />
           <Button
-            bg={'blue.400'}
+            bg={'#fd90ad'}
             rounded={'full'}
             color={'white'}
             flex={'1 0 auto'}
-            _hover={{ bg: 'blue.500' }}
-            _focus={{ bg: 'blue.500' }}>
+            _hover={{ bg: 'black' }}
+            _focus={{ bg: 'black' }}>
             Subscribe
           </Button>
         </Stack>
