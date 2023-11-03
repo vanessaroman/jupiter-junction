@@ -76,12 +76,13 @@ export default function ContactPage() {
                   <IconButton
                     aria-label="email"
                     variant="ghost"
+                    color="white"
                     size="lg"
                     fontSize="3xl"
                     icon={<MdEmail />}
                     _hover={{
-                      bg: 'blue.500',
-                      color: useColorModeValue('white', 'gray.700'),
+                        bg: 'white',
+                        color: useColorModeValue('#fd90ad', 'gray.700'),
                     }}
                     onClick={onCopy}
                     isRound
@@ -92,12 +93,13 @@ export default function ContactPage() {
                   <IconButton
                     aria-label="github"
                     variant="ghost"
+                    color="white"
                     size="lg"
                     fontSize="3xl"
                     icon={<BsGithub />}
                     _hover={{
-                      bg: 'blue.500',
-                      color: useColorModeValue('white', 'gray.700'),
+                      bg: 'white',
+                      color: useColorModeValue('#fd90ad', 'gray.700'),
                     }}
                     isRound
                   />
@@ -107,11 +109,12 @@ export default function ContactPage() {
                   <IconButton
                     aria-label="twitter"
                     variant="ghost"
+                    color="white"
                     size="lg"
                     icon={<BsTwitter size="28px" />}
                     _hover={{
-                      bg: 'blue.500',
-                      color: useColorModeValue('white', 'gray.700'),
+                        bg: 'white',
+                        color: useColorModeValue('#fd90ad', 'gray.700'),
                     }}
                     isRound
                   />
@@ -121,11 +124,12 @@ export default function ContactPage() {
                   <IconButton
                     aria-label="linkedin"
                     variant="ghost"
+                    color="white"
                     size="lg"
                     icon={<BsLinkedin size="28px" />}
                     _hover={{
-                      bg: 'blue.500',
-                      color: useColorModeValue('white', 'gray.700'),
+                        bg: 'white',
+                        color: useColorModeValue('#fd90ad', 'gray.700'),
                     }}
                     isRound
                   />
