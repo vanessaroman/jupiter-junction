@@ -24,8 +24,8 @@ import { MdEmail, MdOutlineEmail } from 'react-icons/md'
 
 const confetti = {
   light: {
-    primary: '4299E1', // blue.400
-    secondary: 'BEE3F8', // blue.100
+    primary: 'FD90AD', // blue.400
+    secondary: 'FD90AD', // blue.100
   },
 
   dark: {
@@ -42,7 +42,7 @@ export default function ContactPage() {
 
   return (
     <Flex
-      bg={useColorModeValue('gray.100', 'gray.900')}
+      bg={useColorModeValue('black', 'gray.900')}
       align="center"
       justify="center"
       css={{
@@ -57,7 +57,8 @@ export default function ContactPage() {
               fontSize={{
                 base: '4xl',
                 md: '5xl',
-              }}>
+              }}
+              color={'white'}>
               Get in Touch
             </Heading>
 
@@ -173,10 +174,10 @@ export default function ContactPage() {
 
                   <Button
                     colorScheme="blue"
-                    bg="blue.400"
+                    bg="#fd90ad"
                     color="white"
                     _hover={{
-                      bg: 'blue.500',
+                      bg: 'black',
                     }}
                     width="full">
                     Send Message
